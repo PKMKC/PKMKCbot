@@ -38,7 +38,7 @@ if (count($pesan_datang) > 2) {
 
 #-------------------------[Function]-------------------------#
 function cuaca($keyword) {
-    $uri = "http://api.openweathermap.org/data/2.5/weather?q=" . $keyword . ",ID&units=metric&appid=e172c2f3a3c620591582ab5242e0e6c4";
+    $uri = "https://www.yahoo.com/news/weather/indonesia/" . $keyword . ",ID&units=metric&appid=e172c2f3a3c620591582ab5242e0e6c4";
 
     $response = Unirest\Request::get("$uri");
 
